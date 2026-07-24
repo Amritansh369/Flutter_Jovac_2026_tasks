@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -36,7 +35,7 @@ class BurgerCard extends StatelessWidget {
           BoxShadow(
             color: Colors.grey.withOpacity(0.2),
             blurRadius: 12,
-            offset: const Offset(0, 6),
+            offset: const Offset(33, 12),
           ),
         ],
       ),
